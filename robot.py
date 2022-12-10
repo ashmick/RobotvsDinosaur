@@ -1,11 +1,12 @@
 class Robot:
     pass
 
-    def __init__(self) -> None:
-        self.name= ""
+    def __init__(self,name) :
+        self.name="string"
         self.health=int
-        self.active_weapon="Weapon func"
+        self.active_weapon= Weapon()
+        
         pass
     
-    def attack(dinosaur):
+    def attack (self,dinosaur):
         pass

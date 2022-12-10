@@ -1,9 +1,18 @@
 class Battlefield:
     pass
-
-    def __init__(self):
-       self.run_game-""
-       self.display_welcome=""
-       self.battle_phase= ""
-       display_winner=""
+    def __init__(self) :
+       self.robot= Robot()
+       self.dinosaur= Dinosaur()
     pass
+    
+    def run_game(self):
+        pass
+    
+    def display_welcome(self):
+        pass
+    
+    def battle_phase(self):
+        pass
+    
+    def display_winner(self):
+        pass
