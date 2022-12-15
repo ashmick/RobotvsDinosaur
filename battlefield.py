@@ -8,7 +8,7 @@ class Battlefield:
        self.dinosaur= Dinosaur("Da Monster",20,100)
     
     def display_welcome(self):
-        print("Welcome to the game")
+        print("Welcome to the game and let's get ready to battle!")
         pass
     
     def battle_phase(self):
@@ -25,12 +25,18 @@ class Battlefield:
         elif self.robot.health > 0:
             print(f"{self.robot.name} defeats {self.dinosaur.name}")
         pass
-    
+            
+    def display_teaser_message():
+        print("The opponent didn't even have a real chance!")
+        
     def run_game(self):
         self.display_welcome()
         self.battle_phase()
         self.display_winner()
+        self.display_teaser_message()
         pass
+    
+    
         
         
         
